@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>Calculadora de Temperatura</title>
+	</head>
+	<body>
+		<h1>Calculadora de Temperatura - JS</h1>
+		<small>* Em caso de número decimal, utilize ponto (.) ao invés da vírgula (,).</small>
+		<div id="content">
+			<div id="inputs">
+				<p>Celsius (°C):
+					<input type="text" name="celsius" id="inCelsius">
+				</p>
+				<p>Fahrenheit (°F):
+					<input type="text" name="fahrenheit" id="inFahrenheit">
+				</p>
+				<p>Kelvin (K):
+					<input type="text" name="kelvin" id="inKelvin">
+				</p>
+				<p>Rankine (°R):
+					<input type="text" name="rankine" id="inRankine">
+				</p>
+			</div>
+			<div id="buttons">
+				<input type="button" value="Converter Temperatura" id="btConverter">
+				<input type="button" value="Limpar Tudo" id="btLimpar">
+			</div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+</html>
