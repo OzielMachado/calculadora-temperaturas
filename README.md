@@ -1,2 +1,2 @@
-# calculadora-temperaturas
+# conversor-temperaturas
  Exercício de JS
