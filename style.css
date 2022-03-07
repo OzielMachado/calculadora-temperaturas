@@ -19,6 +19,7 @@ h1{
     color: #386496;
     margin: 56px 0;
     font-size: 3em;
+    text-align: center;
 }
 small{
     color: #4990E3;
@@ -49,12 +50,32 @@ p, input{
     box-shadow: 0px 0px 5px #386496;
 }
 #buttons input+input{
-    margin-left: 70px;
+    margin-left: 6vw;
 }
 #buttons input:hover{
     color: #386496;
     background-color: #cccdcf;
 }
 
-@media(min-width: )
+@media(max-width: 900px){
+    #content{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:440px){
+    p{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #buttons input+input{
+        margin-top: 6vw;
+    }
+}
 
